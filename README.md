@@ -6,7 +6,9 @@ Digitization of business processes and deriving intelligent action automatically
 
 Ultimate success of those newly developed ideas then depends on the organizational willingness to embrace the new direction. But first things first.
 
-`"what's the harm of collecting invoices manually and typing them into your Enterprise-Resource-Planning system manually after all?"`. There are multiple studies and reports on automation impacts on human labor. We are quoting just two to make the point: According to the [Smartsheet report](https://www.smartsheet.com/content-center/product-news/automation/workers-waste-quarter-work-week-manual-repetitive-tasks) knowledge workers could save almost a full working day per week if their repetitive tasks were automated. What could you do with an extra day? [McKinsey's featured insight](https://www.mckinsey.com/featured-insights/artificial-intelligence/five-fifty-fear-fear-not) addresses the fear of automation destroying jobs and freeing the most creative force from repetitive manual tasks in the business to work on challenges it was built for by millions of years of evolution: the human brain 🧠.
+`"what's the harm of collecting invoices manually and typing them into your Enterprise-Resource-Planning system manually after all?"`
+
+There are multiple studies and reports on automation impacts on human labor. We are quoting just two to make the point: According to the [Smartsheet report](https://www.smartsheet.com/content-center/product-news/automation/workers-waste-quarter-work-week-manual-repetitive-tasks) knowledge workers could save almost a full working day per week if their repetitive tasks were automated. What could you do with an extra day? [McKinsey's featured insight](https://www.mckinsey.com/featured-insights/artificial-intelligence/five-fifty-fear-fear-not) addresses the fear of automation destroying jobs and freeing the most creative force from repetitive manual tasks in the business to work on challenges it was built for by millions of years of evolution: the human brain 🧠.
 
 You will be using Microsoft tooling and the most-widely adopted ERP globally which is SAP.
 
