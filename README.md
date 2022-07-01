@@ -14,7 +14,7 @@ You will be using Microsoft tooling and the most-widely adopted ERP globally whi
 
 ## 🎯Challenges
 
-- Digitize physical invoices
+- Digitize physical invoices (have a look at [this blog post](https://blogs.sap.com/2021/02/03/your-sap-on-azure-part-26-automate-invoice-processing-using-azure-logic-apps-and-cognitive-services/) from the SAP community for inspiration)
 - Enable end-users to easily interact with the invoice data entry process
 - Integrate your invoice recognition software with SAP S/4HANA
 - Add a simple approval process into the workflow
