@@ -6,11 +6,11 @@ Digitization of business processes and deriving intelligent action automatically
 
 Ultimate success of those newly developed ideas then depends on the organizational willingness to embrace the new direction. But first things first.
 
-`"what's the harm of collecting invoices manually and typing them into your Enterprise-Resource-Planning system manually after all?"`
+`"what's the harm of collecting invoices manually and also typing them into your Enterprise-Resource-Planning system manually after all?"`
 
 There are multiple studies and reports on automation impacts on human labor. We are quoting just two to make the point: According to the [Smartsheet report](https://www.smartsheet.com/content-center/product-news/automation/workers-waste-quarter-work-week-manual-repetitive-tasks) knowledge workers could save almost a full working day per week if their repetitive tasks were automated. What could you do with an extra day? [McKinsey's featured insight](https://www.mckinsey.com/featured-insights/artificial-intelligence/five-fifty-fear-fear-not) addresses the fear of automation destroying jobs and freeing the most creative force from repetitive manual tasks in the business to work on challenges it was built for by millions of years of evolution: the human brain 🧠.
 
-You will be using Microsoft tooling and the most-widely adopted ERP globally which is SAP.
+You will be using Microsoft tooling and the most-widely adopted ERP globally - which is SAP.
 
 💺buckle up and get your fellow humans that extra day to work on challenges, be outdoors to get fresh ideas, socialize with colleagues, work only 4 days a week and still get their work done or just for the sake of advancing modern work.
 
@@ -24,16 +24,28 @@ You will be using Microsoft tooling and the most-widely adopted ERP globally whi
 
 ## 🎓Learning References
 
+Quick exploration and feasibility-check of a possible path to your digitization goal is key in todays businesses. Get a grasp on your problem space with below resources first before climbing down a rabbit hole🐇🕳️ and enjoy breaking things along the way while you learn 💥.
+
+**Recommended Reading📖**:
+
+- [Automate a business process using Power Automate](https://docs.microsoft.com/learn/paths/automate-process-power-automate/)
+- [Choose the best AI service for your needs](https://docs.microsoft.com/learn/modules/ai-machine-learning-fundamentals/)
 - [Your SAP on Azure – Part 26 – Automate invoice processing using Azure Logic Apps and Cognitive Services | SAP Blogs](https://blogs.sap.com/2021/02/03/your-sap-on-azure-part-26-automate-invoice-processing-using-azure-logic-apps-and-cognitive-services/)
+
+Continue your journey with the following resources 👁️‍🗨️:
+
 - [Cognitive Services and Machine Learning - Azure Cognitive Services | Microsoft Docs](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-and-machine-learning)
+- [Build custom text analytics solutions](https://docs.microsoft.com/learn/paths/build-custom-text-analytics/)
+- [Process and translate text with Azure Cognitive Services](https://docs.microsoft.com/learn/paths/process-translate-text-azure-cognitive-services/)
 - [Learning Path - Cognitive Services](https://docs.microsoft.com/learn/browse/?terms=Cognitive%20Service)
 - [Learning Path - Robotic Process Automation](https://docs.microsoft.com/learn/browse/?terms=RPA)
+- [Learning Path - PL900 Microsoft Power Platform Fundamentals](https://docs.microsoft.com/learn/paths/power-plat-fundamentals/)
 
 ## 🚀Getting started
 
-- [Azure free trial](https://azure.microsoft.com/free/)
-- [M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program)
-- [GitHub](https://github.com/)
+- Create your [Azure free trial](https://azure.microsoft.com/free/) account to get free access to Azure services
+- Sign-up with the [M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get access to your required sandbox landscape
+- Create a [GitHub](https://github.com/) account to collaborate with your team and present your project to the community
 
 Or reuse university resources.
 
