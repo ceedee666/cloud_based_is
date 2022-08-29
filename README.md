@@ -22,6 +22,16 @@ You will be using Microsoft tooling and the most-widely adopted ERP globally - w
 - Add a simple approval process into the workflow
 - Infuse a smart component that detects invoice anomalies hinting at invoice fraud (you would not imagine how many fraudulent invoices get paid by companies just by sending a nice looking pdf with the right amount of money. Have a look at these insights from [Barclays](https://www.barclayscorporate.com/insights/fraud-protection/invoice-fraud/) and [this unofficial source](https://fraud.net/n/fake-invoices-three-major-cases-of-invoice-fraud-in-2020/) for context)
 
+## 🚀Getting started
+
+In order to work through the learning resources provided in the next section create the following accounts: 
+
+1. Create your [Azure free trial](https://azure.microsoft.com/free/) account to get free access to Azure services
+1. Sign-up with the [M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get access to your required sandbox landscape
+1. Create a [GitHub](https://github.com/) account to collaborate with your team and present your project to the community
+
+It is also possible to reuse the Microsoft 365 subscription provided by the university. However, this subscription is limited in certain areas. Therefor the usage of the [M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) is recommended.
+
 ## 🎓Learning References
 
 Quick exploration and feasibility-check of a possible path to your digitization goal is key in todays businesses. Get a grasp on your problem space with below resources first before climbing down a rabbit hole🐇🕳️ and enjoy breaking things along the way while you learn 💥.
@@ -41,13 +51,6 @@ Continue your journey with the following resources 👁️‍🗨️:
 - [Learning Path - Robotic Process Automation](https://docs.microsoft.com/learn/browse/?terms=RPA)
 - [Learning Path - PL900 Microsoft Power Platform Fundamentals](https://docs.microsoft.com/learn/paths/power-plat-fundamentals/)
 
-## 🚀Getting started
-
-- Create your [Azure free trial](https://azure.microsoft.com/free/) account to get free access to Azure services
-- Sign-up with the [M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get access to your required sandbox landscape
-- Create a [GitHub](https://github.com/) account to collaborate with your team and present your project to the community
-
-Or reuse university resources.
 
 ## 🤔What else?
 
