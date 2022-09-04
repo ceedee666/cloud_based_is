@@ -1,4 +1,4 @@
-# 🌤️Cloud-Based Information Systems
+# 🌤️ Cloud-Based Information Systems
 
 Repository for the lecture Cloud Based Information System at FH Aachen in the winter term 2022/2023
 
@@ -14,7 +14,7 @@ You will be using Microsoft tooling and the most-widely adopted ERP globally - w
 
 💺buckle up and get your fellow humans that extra day to work on challenges, be outdoors to get fresh ideas, socialize with colleagues, work only 4 days a week and still get their work done or just for the sake of advancing modern work.
 
-## 🎯Challenges
+## 🎯 Challenges
 
 - Digitize physical invoices (have a look at [this blog post](https://blogs.sap.com/2021/02/03/your-sap-on-azure-part-26-automate-invoice-processing-using-azure-logic-apps-and-cognitive-services/) from the SAP community for inspiration)
 - Enable end-users to easily interact with the invoice data entry process
@@ -22,7 +22,7 @@ You will be using Microsoft tooling and the most-widely adopted ERP globally - w
 - Add a simple approval process into the workflow
 - Infuse a smart component that detects invoice anomalies hinting at invoice fraud (you would not imagine how many fraudulent invoices get paid by companies just by sending a nice looking pdf with the right amount of money. Have a look at these insights from [Barclays](https://www.barclayscorporate.com/insights/fraud-protection/invoice-fraud/) and [this unofficial source](https://fraud.net/n/fake-invoices-three-major-cases-of-invoice-fraud-in-2020/) for context)
 
-## 🚀Getting started
+## 🚀 Getting started
 
 In order to work through the learning resources provided in the next section create the following accounts: 
 
@@ -32,11 +32,11 @@ In order to work through the learning resources provided in the next section cre
 
 It is also possible to reuse the Microsoft 365 subscription provided by the university. However, this subscription is limited in certain areas. Therefor the usage of the [M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) is recommended.
 
-## 🎓Learning References
+## 🎓 Learning References
 
-Quick exploration and feasibility-check of a possible path to your digitization goal is key in todays businesses. Get a grasp on your problem space with below resources first before climbing down a rabbit hole🐇🕳️ and enjoy breaking things along the way while you learn 💥.
+Quick exploration and feasibility-check of a possible path to your digitization goal is key in todays businesses. Get a grasp on your problem space with below resources first before climbing down a rabbit hole 🐇🕳️ and enjoy breaking things along the way while you learn 💥.
 
-**Recommended Reading📖**:
+**Recommended Reading 📖**:
 
 - [Automate a business process using Power Automate](https://docs.microsoft.com/learn/paths/automate-process-power-automate/)
 - [Choose the best AI service for your needs](https://docs.microsoft.com/learn/modules/ai-machine-learning-fundamentals/)
@@ -52,6 +52,6 @@ Continue your journey with the following resources 👁️‍🗨️:
 - [Learning Path - PL900 Microsoft Power Platform Fundamentals](https://docs.microsoft.com/learn/paths/power-plat-fundamentals/)
 
 
-## 🤔What else?
+## 🤔 What else?
 
-During your project you will get guidance and mentorship not only from your professor but also from Microsoft and SAP architects. How cool is that?🤯😵
+During your project you will get guidance and mentorship not only from your professor but also from Microsoft and SAP architects. How cool is that? 🤯😵
