@@ -53,9 +53,9 @@ However, this subscription is limited in certain areas. Therefor the usage of th
 
 | Nr. | Topic             | Ressources                                          |
 | --: | ----------------- | --------------------------------------------------- |
-|   1 | REST and Web APIs | Miro Board                                          |
+|   1 | REST and Web APIs | Lecture & Miro Board                                |
 |   2 | OData             | https://developers.sap.com/mission.scp-3-odata.html |
-|   2 | oAuth             |                                                     |
+|   3 | oAuth             | Lecture                                             |
 
 ## 📚 Additional Learning References
 
