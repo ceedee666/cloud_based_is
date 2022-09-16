@@ -29,16 +29,12 @@ You will be using Microsoft tooling and the most-widely adopted ERP globally - w
 outdoors to get fresh ideas, socialize with colleagues, work only 4 days a
 week and still get their work done or just for the sake of advancing modern work.
 
-## 🎯 Challenges
+## 🎓 What you should already know
 
-- Digitize physical invoices (have a look at [this blog post](https://blogs.sap.com/2021/02/03/your-sap-on-azure-part-26-automate-invoice-processing-using-azure-logic-apps-and-cognitive-services/) from the SAP community for inspiration)
-- Enable end-users to easily interact with the invoice data entry process
-- Integrate your invoice recognition software with SAP S/4HANA
-- Add a simple approval process into the workflow
-- Infuse a smart component that detects invoice anomalies hinting at invoice
-  fraud (you would not imagine how many fraudulent invoices get paid by
-  companies just by sending a nice looking pdf with the right amount of money.
-  Have a look at these insights from [Barclays](https://www.barclayscorporate.com/insights/fraud-protection/invoice-fraud/) and [this unofficial source](https://fraud.net/n/fake-invoices-three-major-cases-of-invoice-fraud-in-2020/) for context)
+- Overview and processes in ERP systems (cf. [SAP in der Praxis](https://drumm.sh/sap) & [Business Information Systems](https://drumm.sh/bis))
+- At least one programming language ([Python MOOC](https://open.sap.com/courses/python1))
+- Basic knowledge of HTML and HTTP ([W3C HTML Tutorial](https://www.w3schools.com/html/default.asp), [W3C What is HTTP](https://www.w3schools.com/whatis/whatis_http.asp))
+- Process Modelling ([BPMN](https://drumm.sh/is)
 
 ## 🚀 Getting started
 
@@ -49,11 +45,21 @@ In order to work through the learning resources provided in the next section cre
    microsoft-365/dev-program) to get access to your required sandbox landscape
 1. Create a [GitHub](https://github.com/) account to collaborate with your team and present your project to the community
 
-It is also possible to reuse the Microsoft 365 subscription provided by the university. However, this subscription is limited in certain areas. Therefor the usage of the [M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) is recommended.
+It is also possible to reuse the Microsoft 365 subscription provided by the university.
+However, this subscription is limited in certain areas. Therefor the usage of the
+[M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) is recommended.
 
-## 🎓 Learning References
+## 🧭 Learning Path
 
-Quick exploration and feasibility-check of a possible path to your digitization goal is key in todays businesses. Get a grasp on your problem space with below resources first before climbing down a rabbit hole 🐇🕳️ and enjoy breaking things along the way while you learn 💥.
+| Nr. | Topic             | Ressources                                          |
+| --: | ----------------- | --------------------------------------------------- |
+|   1 | REST and Web APIs | Miro Board                                          |
+|   2 | OData             | https://developers.sap.com/mission.scp-3-odata.html |
+|   2 | oAuth             |                                                     |
+
+## 📚 Additional Learning References
+
+Quick exploration and feasibility-check of a possible path to your digitization goal is key in today's businesses. Get a grasp on your problem space with below resources first before climbing down a rabbit hole 🐇🕳️ and enjoy breaking things along the way while you learn 💥.
 
 **Recommended Reading 📖**:
 
