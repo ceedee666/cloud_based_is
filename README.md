@@ -34,7 +34,7 @@ week and still get their work done or just for the sake of advancing modern work
 - Overview and processes in ERP systems (cf. [SAP in der Praxis](https://drumm.sh/sap) & [Business Information Systems](https://drumm.sh/bis))
 - At least one programming language ([Python MOOC](https://open.sap.com/courses/python1))
 - Basic knowledge of HTML and HTTP ([W3C HTML Tutorial](https://www.w3schools.com/html/default.asp), [W3C What is HTTP](https://www.w3schools.com/whatis/whatis_http.asp))
-- Process Modelling ([BPMN](https://drumm.sh/is)
+- Process Modelling ([BPMN](https://drumm.sh/is))
 
 ## 🚀 Getting started
 
