@@ -40,9 +40,9 @@ week and still get their work done or just for the sake of advancing modern work
 
 In order to work through the learning resources provided in the next section create the following accounts:
 
-1. Create your [Azure free trial](https://azure.microsoft.com/free/) account to get free access to Azure services
 1. Sign-up with the [M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get access to your required sandbox landscape
 1. Create a [GitHub](https://github.com/) account to collaborate with your team and present your project to the community
+1. Optional: Create your [Azure free trial](https://azure.microsoft.com/free/) account to get free access to Azure services
 
 It is also possible to reuse the Microsoft 365 subscription provided by the university.
 However, this subscription is limited in certain areas. Therefor the usage of the
@@ -52,9 +52,9 @@ However, this subscription is limited in certain areas. Therefor the usage of th
 
 | Nr. | Topic             | Ressources                                          |
 | --: | ----------------- | --------------------------------------------------- |
-|   1 | REST and Web APIs | Lecture & Miro Board                                |
+|   1 | REST and Web APIs | 1st Lecture & Miro Board                                |
 |   2 | OData             | https://developers.sap.com/mission.scp-3-odata.html |
-|   3 | oAuth             | Lecture                                             |
+|   3 | oAuth             | 2nd Lecture                                             |
 
 ## 📚 Additional Learning References
 
