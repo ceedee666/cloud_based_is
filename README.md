@@ -50,11 +50,11 @@ However, this subscription is limited in certain areas. Therefor the usage of th
 
 ## 🧭 Learning Path
 
-| Nr. | Topic             | Ressources                                          |
-| --: | ----------------- | --------------------------------------------------- |
-|   1 | REST and Web APIs | 1st Lecture & Miro Board                                |
-|   2 | OData             | https://developers.sap.com/mission.scp-3-odata.html |
-|   3 | oAuth             | 2nd Lecture                                             |
+| Nr. | Topic                      | Ressources                                          |
+| --: | -------------------------- | --------------------------------------------------- |
+|   1 | REST and Web APIs          | 1st Lecture & Miro Board                            |
+|   2 | [OData](lectures/odata.md) | https://developers.sap.com/mission.scp-3-odata.html |
+|   3 | [oAuth](lectures/oauth.md) | 2nd Lecture                                         |
 
 ## 📚 Additional Learning References
 
