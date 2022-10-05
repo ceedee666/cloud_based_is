@@ -55,6 +55,7 @@ However, this subscription is limited in certain areas. Therefor the usage of th
 |   1 | REST and Web APIs          | 1st Lecture & Miro Board                            |
 |   2 | [OData](lectures/odata.md) | https://developers.sap.com/mission.scp-3-odata.html |
 |   3 | [OAuth](lectures/oauth.md) | 2nd Lecture                                         |
+|   4 | Power Platform             | https://learn.microsoft.com/en-us/training/paths/power-plat-fundamentals/ |
 
 ## 📚 Additional Learning References
 
