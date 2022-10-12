@@ -40,7 +40,10 @@ week and still get their work done or just for the sake of advancing modern work
 
 In order to work through the learning resources provided in the next section create the following accounts:
 
-1. Sign-up with the [M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get access to your required sandbox landscape
+1. Sign-up with the [M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get 
+access to your required sandbox landscape. This is a two step process:
+  1. Sign up to the developer account using your university acount (https://learn.microsoft.com/en-us/office/developer-program/microsoft-365-developer-program)
+  1. Add a Microsoft 365 developer subscription (https://learn.microsoft.com/en-us/office/developer-program/microsoft-365-developer-program-get-started)
 1. Create a [GitHub](https://github.com/) account to collaborate with your team and present your project to the community
 1. Optional: Create your [Azure free trial](https://azure.microsoft.com/free/) account to get free access to Azure services
 
