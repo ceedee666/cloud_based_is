@@ -63,7 +63,7 @@ However, this subscription is limited in certain areas. Therefor the usage of th
 
 > **Warning** - Access to SAP systems for prototyping projects is often a challenge🏋
 > 1. Consider using SAP's "offline" [mock server](https://sap.github.io/cloud-s4-sdk-book/pages/mock-odata.html) to start developing right away while you wait for the "real" systems to come available.
-> 2. Explore the [SAP API Business Hub Sandbox](https://api.sap.com/api/API_BUSINESS_PARTNER/overview) for an even richer set of mock services. Sign up for a P-User on the SAP community to be able use "try out".
+> 2. Explore the [SAP API Business Hub Sandbox](https://api.sap.com/api/API_BUSINESS_PARTNER/overview) for an even richer set of mock services. Sign up for a P-User on the SAP community to be able use "try out". Click `Login` -> `Register` from the Hub.
 
 ## 📚 Additional Learning References
 
