@@ -42,7 +42,9 @@ In order to work through the learning resources provided in the next section cre
 
 1. Sign-up with the [M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get 
 access to your required sandbox landscape. This is a two step process:
+    
     a. Sign up to the developer account using your university acount (https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program)
+    
     b. Add a Microsoft 365 developer subscription (https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program-get-started)
 
 > **Warning** - once you signed-up to the M365 sandbox with your university account, you need to switch user and continue working with one of the supplied demo users (e.g. NestorW@M365x11111.onmicrosoft.com).
