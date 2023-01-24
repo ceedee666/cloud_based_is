@@ -42,10 +42,13 @@ In order to work through the learning resources provided in the next section cre
 
 1. Sign-up with the [M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get 
 access to your required sandbox landscape. This is a two step process:
-    1. Sign up to the developer account using your university acount (https://learn.microsoft.com/en-us/office/developer-program/microsoft-365-developer-program)
-    1. Add a Microsoft 365 developer subscription (https://learn.microsoft.com/en-us/office/developer-program/microsoft-365-developer-program-get-started)
-1. Create a [GitHub](https://github.com/) account to collaborate with your team and present your project to the community
-1. Optional: Create your [Azure free trial for students](https://azure.microsoft.com/free/students/) account to get free access to Azure services without the need for credit card info.
+    a. Sign up to the developer account using your university acount (https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program)
+    b. Add a Microsoft 365 developer subscription (https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program-get-started)
+
+> **Warning** - once you signed-up to the M365 sandbox with your university account, you need to switch user and continue working with one of the supplied demo users (e.g. NestorW@M365x11111.onmicrosoft.com).
+
+2. Create a [GitHub](https://github.com/) account to collaborate with your team and present your project to the community
+3. Optional: Create your [Azure free trial for students](https://azure.microsoft.com/free/students/) account to get free access to Azure services without the need for credit card info.
 
 It is also possible to reuse the Microsoft 365 subscription provided by the university.
 However, this subscription is limited in certain areas. Therefor the usage of the
