@@ -1,6 +1,7 @@
 # 🌤️ Cloud-Based Information Systems
 
-Repository for the lecture Cloud Based Information System at FH Aachen in the winter term 2022/2023
+Repository for the lecture Cloud Based Information System at FH Aachen in the winter
+term 2022/2023
 
 Digitization of business processes and deriving intelligent action automatically is
 one of the mega trends across all industries globally. As part of this course,
@@ -11,7 +12,8 @@ founded by the leadership to act fast and avoid the internal barriers that slow 
 Ultimate success of those newly developed ideas then depends on the
 organizational willingness to embrace the new direction. But first things first.
 
-`"what's the harm of collecting invoices manually and also typing them into your Enterprise-Resource-Planning system manually after all?"`
+`"what's the harm of collecting invoices manually and also typing them into your Enterprise
+-Resource-Planning system manually after all?"`
 
 There are multiple studies and reports on automation impacts on human labor.
 We are quoting just two to make the point: According to the
@@ -33,7 +35,8 @@ week and still get their work done or just for the sake of advancing modern work
 
 - Overview and processes in ERP systems (cf. [SAP in der Praxis](https://drumm.sh/sap) & [Business Information Systems](https://drumm.sh/bis))
 - At least one programming language ([Python MOOC](https://open.sap.com/courses/python1))
-- Basic knowledge of HTML and HTTP ([W3C HTML Tutorial](https://www.w3schools.com/html/default.asp), [W3C What is HTTP](https://www.w3schools.com/whatis/whatis_http.asp))
+- Basic knowledge of HTML and HTTP ([W3C HTML Tutorial](https://www.w3schools.com/html/default.asp),
+  [W3C What is HTTP](https://www.w3schools.com/whatis/whatis_http.asp))
 - Process Modelling ([BPMN](https://drumm.sh/is))
 
 ## 🚀 Getting started
@@ -50,10 +53,14 @@ In order to work through the learning resources provided in the next section cre
 > This subscription is very limited and missing most of the services required for the lectrure. Therefor the usage of the
 > [M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) is recommended.
 
-> **Warning** - once you signed-up to the M365 sandbox with your university account, you need to switch user and continue working with one of the supplied demo users (e.g. NestorW@M365x11111.onmicrosoft.com).
+> **Warning** - once you signed-up to the M365 sandbox with your university account,
+> you need to switch user and continue working with one of the supplied demo users (
+> e.g. NestorW@M365x11111.onmicrosoft.com).
 
-2. Create a [GitHub](https://github.com/) account to collaborate with your team and present your project to the community
-3. Create your [Azure free trial for students](https://azure.microsoft.com/free/students/) account to get free access to Azure services without the need for credit card info.
+2. Create a [GitHub](https://github.com/) account to collaborate with your team and
+   present your project to the community
+3. Create your [Azure free trial for students](https://azure.microsoft.com/free/students/)
+   account to get free access to Azure services without the need for credit card info.
 
 ## 🧭 Learning Path
 
@@ -67,12 +74,18 @@ In order to work through the learning resources provided in the next section cre
 
 > **Warning** - Access to SAP systems for prototyping projects is often a challenge🏋
 >
-> 1. Consider using SAP's "offline" [mock server](https://sap.github.io/cloud-s4-sdk-book/pages/mock-odata.html) to start developing right away while you wait for the "real" systems to come available.
-> 2. Explore the [SAP API Business Hub Sandbox](https://api.sap.com/api/API_BUSINESS_PARTNER/overview) for an even richer set of mock services. Sign up for a P-User on the SAP community to be able use "try out". Click `Login` -> `Register` from the Hub.
+> 1. Consider using SAP's "offline" [mock server](https://sap.github.io/cloud-s4-sdk-book/pages/mock-odata.html)
+>    to start developing right away while you wait for the "real" systems to come available.
+> 2. Explore the [SAP API Business Hub Sandbox](https://api.sap.com/api/API_BUSINESS_PARTNER/overview)
+>    for an even richer set of mock services. Sign up for a P-User on the SAP community
+>    to be able use "try out". Click `Login` -> `Register` from the Hub.
 
 ## 📚 Additional Learning References
 
-Quick exploration and feasibility-check of a possible path to your digitization goal is key in today's businesses. Get a grasp on your problem space with below resources first before climbing down a rabbit hole 🐇🕳️ and enjoy breaking things along the way while you learn 💥.
+Quick exploration and feasibility-check of a possible path to your digitization goal
+is key in today's businesses. Get a grasp on your problem space with below resources
+first before climbing down a rabbit hole 🐇🕳️ and enjoy breaking things along the way
+while you learn 💥.
 
 **Recommended Reading 📖**:
 
