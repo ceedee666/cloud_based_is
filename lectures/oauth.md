@@ -84,6 +84,9 @@ https -v -f POST https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/token 
                  scope=user.read
 ```
 
+The returend token is a [JSON Web Token (JWT)](https://datatracker.ietf.org/doc/html/rfc7519) token.
+Use the [jwt-cli](https://github.com/mike-engel/jwt-cli) or the [npm jwt-cli](https://www.npmjs.com/package/jwt-cli) to decode the JWT token.
+
 ### Call a Microsoft Graph service
 
 Using the access token it is now possible to invoke different services in the Microsoft Graph API. The example blow shows
