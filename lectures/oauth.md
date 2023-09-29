@@ -60,7 +60,7 @@ JSON object containing the assess token as well as additional information like t
 https -v -f POST https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/token \
                  client_id=$CLIENT_ID \
                  client_secret=$CLIENT_SECRET \
-                 code=$AUTH_CODE
+                 code=$AUTH_CODE \
                  grant_type=authorization_code \
                  scope=user.read
 ```
