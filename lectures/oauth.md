@@ -47,6 +47,10 @@ authorization code.
 https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize?client_id={client}&response_type=code&scope=user.read&response_mode=query
 ```
 
+> **Hint**
+> A simple Web server can be started locally using
+> `python3 -m http.server`
+
 ### Request access token
 
 To request a access token a POST request is invoked at the `/token` endpoint. This request returns a
