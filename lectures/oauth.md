@@ -48,8 +48,27 @@ https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize?client_id={clie
 ```
 
 > **Hint**
-> A simple Web server can be started locally using
-> `python3 -m http.server`
+>
+> The following code snippet can be used to start a simple Web server accepting connections on the `/auth` endpoint.
+>
+> ```python
+> from fastapi import FastAPI
+>
+> app = FastAPI()
+>
+>
+> @app.get("/")
+> async def root():
+>    return {"message": "Hello World"}
+>
+>
+> @app.get("/auth")
+> async def auth(code: str):
+>    print(code)
+>    return "OK"
+> ```
+>
+> The Web server can be started using `uvicorn main:app --reload`.
 
 ### Request access token
 
