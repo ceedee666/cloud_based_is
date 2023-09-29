@@ -12,8 +12,8 @@ founded by the leadership to act fast and avoid the internal barriers that slow 
 Ultimate success of those newly developed ideas then depends on the
 organizational willingness to embrace the new direction. But first things first.
 
-`"what's the harm of collecting invoices manually and also typing them into your Enterprise
--Resource-Planning system manually after all?"`
+`"what's the harm of collecting invoices manually and also typing them into your 
+Enterprise-Resource-Planning system manually after all?"`
 
 There are multiple studies and reports on automation impacts on human labor.
 We are quoting just two to make the point: According to the
