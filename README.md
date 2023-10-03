@@ -31,7 +31,9 @@ You will be using Microsoft tooling and the most-widely adopted ERP globally - w
 outdoors to get fresh ideas, socialize with colleagues, work only 4 days a
 week and still get their work done or just for the sake of advancing modern work.
 
-To get a first impression of what is possible using these tools watch the this [YT video](https://www.youtube.com/watch?v=ZrxepEoHUpI&t=7s).
+To get a first impression of what is possible using these tools watch the video below
+
+[![Watch the video](https://img.youtube.com/vi/ZrxepEoHUpI/hqdefault.jpg)](https://www.youtube.com/embed/ZrxepEoHUpI)
 
 ## 🎓 What you should already know
 
