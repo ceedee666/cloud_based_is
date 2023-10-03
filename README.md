@@ -1,11 +1,11 @@
 # 🌤️ Cloud-Based Information Systems
 
 Repository for the lecture Cloud Based Information System at FH Aachen in the winter
-term 2022/2023
+term 2023/2024
 
 Digitization of business processes and deriving intelligent action automatically is
 one of the mega trends across all industries globally. As part of this course,
-you will work in project teams and experience challenges and solution approaches firsthand
+you will work in project teams and experience challenges and solution approaches first-hand
 Out in the wild such teams are often
 founded by the leadership to act fast and avoid the internal barriers that slow down change.
 
@@ -31,6 +31,8 @@ You will be using Microsoft tooling and the most-widely adopted ERP globally - w
 outdoors to get fresh ideas, socialize with colleagues, work only 4 days a
 week and still get their work done or just for the sake of advancing modern work.
 
+To get a first impression of what is possible using these tools watch the this [YT video](https://www.youtube.com/watch?v=ZrxepEoHUpI&t=7s).
+
 ## 🎓 What you should already know
 
 - Overview and processes in ERP systems (cf. [SAP in der Praxis](https://drumm.sh/sap) & [Business Information Systems](https://drumm.sh/bis))
@@ -38,6 +40,7 @@ week and still get their work done or just for the sake of advancing modern work
 - Basic knowledge of HTML and HTTP ([W3C HTML Tutorial](https://www.w3schools.com/html/default.asp),
   [W3C What is HTTP](https://www.w3schools.com/whatis/whatis_http.asp))
 - Process Modelling ([BPMN](https://drumm.sh/is))
+- Basic usage of a Unix shell like [Bash](<https://en.wikipedia.org/wiki/Bash_(Unix_shell)>) or [ZSH](https://en.wikipedia.org/wiki/Z_shell) ([Bash Introduction](https://learn.microsoft.com/en-us/training/modules/bash-introduction/))
 
 ## 🚀 Getting started
 
@@ -45,12 +48,13 @@ In order to work through the learning resources provided in the next section cre
 
 1.  Sign-up with the [M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get
     access to your required sandbox landscape. This is a two step process:
+
     a. Sign up to the developer account using your university acount (https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program)
 
-        b. Add a Microsoft 365 developer subscription (https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program-get-started)
+    b. Add a Microsoft 365 developer subscription (https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program-get-started)
 
 > **Warning** - It is _not_ possible to reuse the Microsoft 365 subscription provided by the university.
-> This subscription is very limited and missing most of the services required for the lectrure. Therefor the usage of the
+> This subscription is very limited and missing most of the services required for the lecture. Therefore, the usage of the
 > [M365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) is recommended.
 
 > **Warning** - once you signed-up to the M365 sandbox with your university account,
@@ -70,7 +74,7 @@ In order to work through the learning resources provided in the next section cre
 |   2 | [OData](lectures/odata.md) | https://developers.sap.com/mission.scp-3-odata.html                                       |
 |   3 | [OAuth](lectures/oauth.md) | 2nd Lecture                                                                               |
 |   4 | Power Platform             | https://learn.microsoft.com/en-us/training/paths/power-plat-fundamentals/                 |
-|  5  | AI Builder                 | https://learn.microsoft.com/en-us/training/paths/improve-business-performance-ai-builder/ |
+|   5 | AI Builder                 | https://learn.microsoft.com/en-us/training/paths/improve-business-performance-ai-builder/ |
 
 > **Warning** - Access to SAP systems for prototyping projects is often a challenge🏋
 >
@@ -100,7 +104,7 @@ Continue your journey with the following resources 👁️‍🗨️:
 - [Process and translate text with Azure Cognitive Services](https://docs.microsoft.com/learn/paths/process-translate-text-azure-cognitive-services/)
 - [Learning Path - Cognitive Services](https://docs.microsoft.com/learn/browse/?terms=Cognitive%20Service)
 - [Learning Path - Robotic Process Automation](https://docs.microsoft.com/learn/browse/?terms=RPA)
-- [Learning Path - PL900 Microsoft Power Platform Fundamentals](https://docs.microsoft.com/learn/paths/power-plat-fundamentals/)
+- [Building GPT-4 powered bots for SAP enterprise data on Microsoft Teams: A Low-Code Approach](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/building-gpt-4-powered-bots-for-sap-enterprise-data-on-microsoft/ba-p/3902018)
 
 ## 🤔 What else?
 
