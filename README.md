@@ -40,7 +40,7 @@ To get a first impression of what is possible using these tools watch the this [
 - Basic knowledge of HTML and HTTP ([W3C HTML Tutorial](https://www.w3schools.com/html/default.asp),
   [W3C What is HTTP](https://www.w3schools.com/whatis/whatis_http.asp))
 - Process Modelling ([BPMN](https://drumm.sh/is))
-- Basic usage of a Unix shell like [Bash](<https://en.wikipedia.org/wiki/Bash_(Unix_shell)>) or [ZSH](https://en.wikipedia.org/wiki/Z_shell) ([Bash Introduction](https://learn.microsoft.com/en-us/training/modules/bash-introduction/))
+- Basic usage of a Unix shell like [Bash](<https://en.wikipedia.org/wiki/Bash_(Unix_shell)>) or [ZSH](https://en.wikipedia.org/wiki/Z_shell) ([Get started with the Linux command line and the Shell](https://learn.microsoft.com/en-us/training/modules/bash-introduction/))
 
 ## 🚀 Getting started
 
