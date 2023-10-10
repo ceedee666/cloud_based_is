@@ -2,7 +2,7 @@
 
 To learn the basics of the OData protocol you should work through the [OData tutorial](https://developers.sap.com/mission.scp-3-odata.html).
 Based on the basic understanding we will use OData protocol to extract some data from a
-[SAP S/4HANA](https://r36z.ucc.ovgu.de/sap/bc/personas?sap-client=202) system.
+[SAP S/4HANA](https://a03z.ucc.ovgu.de/?sap-client=202) system.
 
 ## SAP API Business Hub
 
