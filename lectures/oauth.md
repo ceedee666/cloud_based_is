@@ -15,14 +15,16 @@ The Graph API provides to authentication methods:
 
 - Delegated Access
 - App-only Access
-  These correspond to the _authorization code_ and _client credentials_ grant types of the OAuth 2.0 specification.
 
-Next we will use tools like [HTTPie](https://httpie.io/) or [Postman](https://www.postman.com/) to perform the authentication flow.
-The code snippets can be used to get started using [HTTPie](https://httpie.io/).
+These correspond to the _authorization code_ and _client credentials_ grant types of the OAuth 2.0 specification.
+Next we will use tools like [HTTPie](https://httpie.io/),
+[Visual Studio Code REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+or [Postman](https://www.postman.com/) to perform the authentication flow.
+The code snippets below can be used to get started using [HTTPie](https://httpie.io/).
 
 ## Prerequisites
 
-Before requesting access tokens, register your app with the Microsoft identity platform. j
+Before requesting access tokens, register your app with the Microsoft identity platform.
 Follow the steps outlined
 [here](https://learn.microsoft.com/en-us/graph/auth/auth-concepts#register-the-application).
 
