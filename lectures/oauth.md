@@ -100,6 +100,7 @@ https -v -A bearer -a $TOKEN https://graph.microsoft.com/v1.0/me
 
 ## Exercises
 
-1. Try to log in using a different user and access the same service. What do you observe.
+1. Try to log in using a different user and access the same service. What do you observe?
 1. Attempt to retrieve other information, like a user's email. If unsuccessful, what changes are necessary?
 1. What occurs when an access token expires? How can an app obtain a new token?
+1. Try to access a service using the Client Credentials grant type. What is different?
