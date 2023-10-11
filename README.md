@@ -65,7 +65,9 @@ In order to work through the learning resources provided in the next section cre
 
 2. Create a [GitHub](https://github.com/) account to collaborate with your team and
    present your project to the community
-3. ~~Create your [Azure free trial for students](https://azure.microsoft.com/free/)
+3. Don't create a Azure trail account yet. In instead use the Azure subscription included with your
+   Microsoft 365 developer subscription first.
+   ~~Create your [Azure free trial for students](https://azure.microsoft.com/free/students)
    account to get free access to Azure services without the need for credit card info.~~
 
 ## 🧭 Learning Path
