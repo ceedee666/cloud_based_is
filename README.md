@@ -1,7 +1,7 @@
 # 🌤️ Cloud-Based Information Systems
 
 Repository for the lecture Cloud Based Information System at FH Aachen in the winter
-term 2023/2024
+term 2023/2024.
 
 Digitization of business processes and deriving intelligent action automatically is
 one of the mega trends across all industries globally. As part of this course,
