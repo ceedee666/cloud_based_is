@@ -24,7 +24,7 @@ The code snippets below can be used to get started using [HTTPie](https://httpie
 
 ## Prerequisites
 
-Before requesting access tokens, register your app with the Microsoft identity platform.
+Before requesting access tokens, register your app with the [Microsoft identity platform](https://entra.microsoft.com/).
 Follow the steps outlined
 [here](https://learn.microsoft.com/en-us/graph/auth/auth-concepts#register-the-application).
 
