@@ -62,22 +62,20 @@ create the following accounts:
     Program](https://developer.microsoft.com/microsoft-365/dev-program) to get
     access to your required sandbox landscape. This is a two step process:
 
-        a. Sign up to the developer account using your university acount
-        (https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program)
+    1. Sign up to a [Microsoft developer account](https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program)
 
-        b. Add a Microsoft 365 developer subscription
-        (https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program-get-started)
+    2. Add a [Microsoft 365 developer subscription](https://learn.microsoft.com/office/developer-program/microsoft-365-developer-program-get-started)
 
-        > **Warning** - It is _not_ possible to reuse the Microsoft 365
-        > subscription provided by the university. This subscription is very
-        > limited and missing most of the services required for the lecture.
-        > Therefore, the usage of the [M365 Developer
-        > Program](https://developer.microsoft.com/microsoft-365/dev-program) is
-        > recommended.
+    > **Warning** - It is _not_ possible to reuse the Microsoft 365
+    > subscription provided by the university. This subscription is very
+    > limited and missing most of the services required for the lecture.
+    > Therefore, the usage of the [M365 Developer
+    > Program](https://developer.microsoft.com/microsoft-365/dev-program) is
+    > recommended.
 
-        > **Warning** - once you signed-up to the M365 sandbox with your university
-        > account, you need to switch user and continue working with one of the
-        > supplied demo users ( e.g. NestorW@M365x11111.onmicrosoft.com).
+    > **Warning** - once you signed-up to the M365 sandbox with your university
+    > account, you need to switch user and continue working with one of the
+    > supplied demo users ( e.g. NestorW@M365x11111.onmicrosoft.com).
 
 2.  Create a [GitHub](https://github.com/) account to collaborate with your
     team and present your project to the community
@@ -97,13 +95,18 @@ create the following accounts:
 |   4 | Power Platform             | https://learn.microsoft.com/en-us/training/paths/power-plat-fundamentals/                 |
 |   5 | AI Builder                 | https://learn.microsoft.com/en-us/training/paths/improve-business-performance-ai-builder/ |
 
-> **Warning** - Access to SAP systems for prototyping projects is often a challenge🏋
+> **Warning** - Access to SAP systems for prototyping projects is often a
+> challenge🏋
 >
-> 1. Consider using SAP's "offline" [mock server](https://sap.github.io/cloud-s4-sdk-book/pages/mock-odata.html)
->    to start developing right away while you wait for the "real" systems to come available.
-> 2. Explore the [SAP API Business Hub Sandbox](https://api.sap.com/api/API_BUSINESS_PARTNER/overview)
->    for an even richer set of mock services. Sign up for a P-User on the SAP community
->    to be able use "try out". Click `Login` -> `Register` from the Hub.
+> 1. Consider using SAP's "offline" [mock
+>    server](https://sap.github.io/cloud-s4-sdk-book/pages/mock-odata.html) to
+>    start developing right away while you wait for the "real" systems to come
+>    available.
+> 2. Explore the [SAP API Business Hub
+>    Sandbox](https://api.sap.com/api/API_BUSINESS_PARTNER/overview) for an
+>    even richer set of mock services. Sign up for a P-User on the SAP
+>    community to be able use "try out". Click `Login` -> `Register` from the
+>    Hub.
 
 ## 📚 Additional Learning References
 
