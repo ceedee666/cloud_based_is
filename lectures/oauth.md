@@ -152,7 +152,7 @@ Once you have the access token, you can access protected resources. For
 instance, to get the user’s profile data:
 
 ```bash
-https -v GET https://$YOUR_DOMAIN/userinfo \
+https -v GET https://$DOMAIN/userinfo \
       Authorization:"Bearer $ACCESS_TOKEN"
 ```
 
