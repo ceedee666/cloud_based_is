@@ -130,7 +130,7 @@ request to the `/oauth/token` endpoint of Auth0. Here’s how to request the
 token:
 
 ```bash
-https -v POST https://$YOUR_DOMAIN/oauth/token \
+https -v POST https://$DOMAIN/oauth/token \
        grant_type=authorization_code \
        client_id=$CLIENT_ID \
        client_secret=$CLIENT_SECRET \
