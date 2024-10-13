@@ -97,14 +97,14 @@ https://YOUR_DOMAIN/authorize?client_id={client_id}&response_type=code&redirect_
 >   - In your project directory, create a file named `.env`.
 >   - Add your Auth0 credentials like this:
 >
->     `````bash CLIENT_ID=your_auth0_client_id_here
+>     ```bash CLIENT_ID=your_auth0_client_id_here
 >     CLIENT_SECRET=your_auth0_client_secret_here
 >     DOMAIN=your_auth0_domain_here
->     REDIRECT_URI=https://your_redirect_url_here ```
+>     REDIRECT_URI=https://your_redirect_url_here
+>     ```
 >
 >     The `DOMAIN` should be your Auth0 domain, which looks like
->     `your-tenant-name.us.auth0.com`. ````
->     `````
+>     `your-tenant-name.us.auth0.com`.
 >
 > - Step 2: Source the `.env` File in Your Shell
 >
