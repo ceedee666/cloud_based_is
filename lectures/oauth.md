@@ -1,57 +1,69 @@
 # OAuth 2.0 Authorization Framework
 
-The OAuth 2.0 authorization framework is defined in the [RFC 6739](https://datatracker.ietf.org/doc/html/rfc6749).
-Read the following tutorials to gain foundational knowledge of the OAuth 2.0 authorization framework:
+The OAuth 2.0 authorization framework is defined in the [RFC
+6739](https://datatracker.ietf.org/doc/html/rfc6749). Read the following
+tutorials to gain foundational knowledge of the OAuth 2.0 authorization
+framework:
 
-- [Understand OAuth 2.0 at a high level](https://github.com/SAP-samples/cloud-apis-virtual-event/tree/main/exercises/02)
-- [An Introduction to OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2).
+- [Understand OAuth 2.0 at a high
+  level](https://github.com/SAP-samples/cloud-apis-virtual-event/tree/main/exercises/02)
+- [An Introduction to OAuth
+  2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2).
 
-## OAuth authentication flow
+## OAuth 2.0 authentication flow
 
-To delve deeper into OAuth 2.0, we will manually explore the authentication flows
-using [Microsoft Graph API 🕸️](https://learn.microsoft.com/en-us/graph/) as an example.
-For a initial exploration of the API use the [Microsoft Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer).
-The Graph API provides to authentication methods:
+In this lecture, we will manually explore OAuth 2.0 authentication flows using
+[Auth0](https://auth0.com/) as the identity provider. Auth0 offers various
+authentication flows and tools to help manage and secure your application's
+authentication needs.
 
-- Delegated Access
-- App-only Access
+To explore the API in practice, we can use tools such as
+[Postman](https://www.postman.com/), [HTTPie](https://httpie.io/), or [VS Code
+REST
+Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+to manually perform OAuth flows.
 
-These correspond to the _authorization code_ and _client credentials_ grant types of the OAuth 2.0 specification.
-Next we will use tools like [HTTPie](https://httpie.io/),
-[Visual Studio Code REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
-or [Postman](https://www.postman.com/) to perform the authentication flow.
-The code snippets below can be used to get started using [HTTPie](https://httpie.io/).
+Auth0 supports different OAuth 2.0 grant types, including:
+
+- **Authorization Code Grant**: For web or native apps where users authenticate
+  and provide consent.
+- **Client Credentials Grant**: For machine-to-machine communication without
+  user interaction.
+
+Next, we’ll walk through examples of both of these flows using Auth0. The code
+snippets below can be used to get started using [HTTPie](https://httpie.io/).
 
 ## Prerequisites
 
-Before requesting access tokens, register your app with the [Microsoft identity platform](https://entra.microsoft.com/).
-Follow the steps outlined
-[here](https://learn.microsoft.com/en-us/graph/auth/auth-concepts#register-the-application).
+Before you can request access tokens from Auth0, you need to:
+
+1. Sign up for an Auth0 account at [Auth0 Signup](https://auth0.com/signup).
+2. Create a new application in the Auth0 dashboard following [this
+   guide](https://auth0.com/docs/get-started/dashboard/create-applications).
 
 ## Grant Type Authorization Code
 
-The grant type authorization code allows a client to request authorization on behalf of the user. The authentication flow for this
-grant type involves three steps:
+The authorization code grant allows a client to request authorization on behalf
+of a user. The flow consists of three main steps:
 
 1. Request authorization
-2. Request access token
-3. Access service
+2. Exchange authorization code for access token
+3. Access the service
 
-### Request authorization
+### Step 1: Request authorization
 
-To request authorization an app needs to redirect the user to the `/authorize` endpoint of the Microsoft identity platform.
-In the example below an authorization code (`response_type=code`) is requested for the `scope` `user.read`. The resulting token is
-returned to the app using a query (`response_mode=query`). This is where the [redirect URL](https://learn.microsoft.com/en-us/graph/auth-register-app-v2#add-a-redirect-uri)
-added when registering the app becomes relevant. The identity platform uses this URL to return the
-authorization code.
+To request authorization, the client needs to redirect the user to Auth0’s
+`/authorize` endpoint. Here’s an example of how to set up the authorization
+request for the `scope` `openid profile email`, with the response type `code`:
 
 ```bash
-https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize?client_id={client}&response_type=code&scope=user.read&response_mode=query
+https://YOUR_DOMAIN/authorize?client_id={client_id}&response_type=code&redirect_uri={redirect_uri}&scope=openid profile email
 ```
 
 > **Hint**
 >
-> The following code snippet can be used to start a simple Web server accepting connections on the `/auth` endpoint.
+> The following code snippet can be used to start a simple Web server accepting
+> connections on the `/auth` endpoint.
 >
 > ```python
 > from fastapi import FastAPI
@@ -70,37 +82,83 @@ https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize?client_id={clie
 >    return "OK"
 > ```
 >
-> The Web server can be started using `uvicorn main:app --reload`.
+> Save the code to a file named `main.py` and run it using `uvicorn main:app`.
 
 ### Request access token
 
-To request a access token a POST request is invoked at the `/token` endpoint. This request returns a
-JSON object containing the assess token as well as additional information like the token type and the scope.
+> **Hint: Using .env files**
+>
+> To securely store sensitive values like `$CLIENT_ID` and `$CLIENT_SECRET` and
+> to make them easily accessible when using HTTPie you can follow these steps.
+>
+> - Step 1: Create a `.env` File
+>
+>   - In your project directory, create a file named `.env`.
+>   - Add your Auth0 credentials like this:
+>
+>     `````bash CLIENT_ID=your_auth0_client_id_here
+>     CLIENT_SECRET=your_auth0_client_secret_here
+>     DOMAIN=your_auth0_domain_here
+>     REDIRECT_URI=https://your_redirect_url_here ```
+>
+>     The `DOMAIN` should be your Auth0 domain, which looks like
+>     `your-tenant-name.us.auth0.com`. ````
+>     `````
+>
+> - Step 2: Source the `.env` File in Your Shell
+>
+>   Before running your HTTPie commands, load the environment variables into
+>   your shell session by sourcing the `.env` file:
+>
+>   `bash source .env`
+>
+>   This will make the variables available to all your shell commands.
+>
+> - Step 3: Use the Variables with HTTPie
+>
+>   You can now reference these variables in e.g. your HTTPie requests as
+>   shown in the snippet below:
+>
+>   ```bash
+>   http POST https://$DOMAIN/oauth/token \
+>     client_id=$CLIENT_ID ...
+>   ```
+
+Next, the authorization code is exchanged for an access token by making a POST
+request to the `/oauth/token` endpoint of Auth0. Here’s how to request the
+token:
 
 ```bash
-https -v -f POST https://login.microsoftonline.com/$TENANT_ID/oauth2/v2.0/token \
-                 client_id=$CLIENT_ID \
-                 client_secret=$CLIENT_SECRET \
-                 code=$AUTH_CODE \
-                 grant_type=authorization_code \
-                 scope=user.read
+https -v POST https://$YOUR_DOMAIN/oauth/token \
+       grant_type=authorization_code \
+       client_id=$CLIENT_ID \
+       client_secret=$CLIENT_SECRET \
+       code=$AUTH_CODE \
+       redirect_uri=$REDIRECT_URI
 ```
 
-The returend token is a [JSON Web Token (JWT)](https://datatracker.ietf.org/doc/html/rfc7519) token.
-Use the [jwt-cli](https://github.com/mike-engel/jwt-cli) or the [npm jwt-cli](https://www.npmjs.com/package/jwt-cli) to decode the JWT token.
+The response will contain the access token, which can be used to access
+protected resources. For example, we will be using the access token to read the
+user's profile data.
 
-### Call a Microsoft Graph service
+The token is a [JWT](https://datatracker.ietf.org/doc/html/rfc7519), and you
+can decode it using tools like
+[jwt-cli](https://www.npmjs.com/package/jwt-cli).
 
-Using the access token it is now possible to invoke different services in the Microsoft Graph API. The example blow shows
-how to get the profile information for the currently logged in user.
+### Access protected resources
+
+Once you have the access token, you can access protected resources. For
+instance, to get the user’s profile data:
 
 ```bash
-https -v -A bearer -a $TOKEN https://graph.microsoft.com/v1.0/me
+https -v GET https://$YOUR_DOMAIN/userinfo \
+      Authorization:"Bearer $ACCESS_TOKEN"
 ```
 
 ## Exercises
 
-1. Try to log in using a different user and access the same service. What do you observe?
-1. Attempt to retrieve other information, like a user's email. If unsuccessful, what changes are necessary?
+1. Try to log in using a different user and access the same service. What do
+   you observe?
 1. What occurs when an access token expires? How can an app obtain a new token?
-1. Try to access a service using the Client Credentials grant type. What is different?
+1. Try to access a service using the Client Credentials grant type. What is
+   different?
