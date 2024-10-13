@@ -40,6 +40,7 @@ Before you can request access tokens from Auth0, you need to:
 1. Sign up for an Auth0 account at [Auth0 Signup](https://auth0.com/signup).
 2. Create a new application in the Auth0 dashboard following [this
    guide](https://auth0.com/docs/get-started/dashboard/create-applications).
+3. Create two example users for this application in the _User Management_.
 
 ## Grant Type Authorization Code
 
