@@ -42,7 +42,7 @@ Before you can request access tokens from Auth0, you need to:
    guide](https://auth0.com/docs/get-started/dashboard/create-applications).
 3. Create two example users for this application in the _User Management_.
 
-## Grant Type Authorization Code
+## Grant type authorization code
 
 The authorization code grant allows a client to request authorization on behalf
 of a user. The flow consists of three main steps:
@@ -160,6 +160,8 @@ https -v GET https://$DOMAIN/userinfo \
 
 1. Try to log in using a different user and access the same service. What do
    you observe?
+1. What happens if you change `scope` variable of the initial authorization
+   request?
 1. What occurs when an access token expires? How can an app obtain a new token?
 1. Try to access a service using the Client Credentials grant type. What is
    different?
