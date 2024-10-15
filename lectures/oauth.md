@@ -100,7 +100,7 @@ https://YOUR_DOMAIN/authorize?client_id={client_id}&response_type=code&redirect_
 >     ```bash CLIENT_ID=your_auth0_client_id_here
 >     CLIENT_SECRET=your_auth0_client_secret_here
 >     DOMAIN=your_auth0_domain_here
->     REDIRECT_URI=https://your_redirect_url_here
+>     REDIRECT_URI=http://localhost:8000/auth
 >     ```
 >
 >     The `DOMAIN` should be your Auth0 domain, which looks like
