@@ -111,7 +111,9 @@ https://YOUR_DOMAIN/authorize?client_id={client_id}&response_type=code&redirect_
 >   Before running your HTTPie commands, load the environment variables into
 >   your shell session by sourcing the `.env` file:
 >
->   `bash source .env`
+>   ```bash
+>   source .env
+>   ```
 >
 >   This will make the variables available to all your shell commands.
 >
